@@ -1,0 +1,19 @@
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-5v7qbq sitelibdir\=./.gem.20251231-26176-5v7qbq clean
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-5v7qbq sitelibdir\=./.gem.20251231-26176-5v7qbq
+generating websocket_mask-x64-mingw-ucrt.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-5v7qbq sitelibdir\=./.gem.20251231-26176-5v7qbq install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20251231-26176-5v7qbq
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-5v7qbq sitelibdir\=./.gem.20251231-26176-5v7qbq clean

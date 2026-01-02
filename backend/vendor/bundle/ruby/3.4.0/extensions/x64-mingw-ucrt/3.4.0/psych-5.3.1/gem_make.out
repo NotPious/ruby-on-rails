@@ -1,0 +1,30 @@
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+checking for pkg-config for yaml-0.1... ["-IC:/Ruby34-x64/msys64/ucrt64/bin/../include ", "-LC:/Ruby34-x64/msys64/ucrt64/bin/../lib", "-lyaml"]
+creating Makefile
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-ts4p5h sitelibdir\=./.gem.20251231-26176-ts4p5h clean
+cd libyaml && make clean
+/bin/sh: line 1: cd: libyaml: No such file or directory
+make: [Makefile:291: clean-so] Error 1 (ignored)
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-ts4p5h sitelibdir\=./.gem.20251231-26176-ts4p5h
+generating psych-x64-mingw-ucrt.def
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-ts4p5h sitelibdir\=./.gem.20251231-26176-ts4p5h install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20251231-26176-ts4p5h
+
+current directory: C:/Users/ericv/Repos/ruby-on-rails/backend/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20251231-26176-ts4p5h sitelibdir\=./.gem.20251231-26176-ts4p5h clean
+cd libyaml && make clean
+/bin/sh: line 1: cd: libyaml: No such file or directory
+make: [Makefile:291: clean-so] Error 1 (ignored)

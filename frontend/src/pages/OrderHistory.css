@@ -1,0 +1,141 @@
+.order-history-container {
+  padding: 2rem 0;
+}
+
+.search-form {
+  margin-bottom: 2rem;
+}
+
+.search-input-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-input-group input {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 2px solid #e0e0e0;
+}
+
+.search-input-group button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.order-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.order-date {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.status-badge,
+.payment-badge {
+  padding: 0.4rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.status-badge.green,
+.payment-badge.green {
+  background-color: #27ae60;
+}
+
+.status-badge.orange,
+.payment-badge.orange {
+  background-color: #f39c12;
+}
+
+.status-badge.red {
+  background-color: #e74c3c;
+}
+
+.status-badge.blue {
+  background-color: #3498db;
+}
+
+.status-badge.purple {
+  background-color: #9b59b6;
+}
+
+.status-badge.gray {
+  background-color: #7f8c8d;
+}
+
+.order-item {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.order-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.item-total {
+  font-weight: 600;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.track-order-btn {
+  padding: 0.5rem 1rem;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.no-orders {
+  text-align: center;
+  padding: 3rem;
+}
+
+@media (max-width: 768px) {
+  .search-input-group {
+    flex-direction: column;
+  }
+
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
