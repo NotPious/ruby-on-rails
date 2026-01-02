@@ -27,3 +27,8 @@
 /tmp/storage/*
 !/tmp/storage/
 !/tmp/storage/.keep
+
+/vendor/bundle
+*.rbc
+.byebug_history
+/node_modules
